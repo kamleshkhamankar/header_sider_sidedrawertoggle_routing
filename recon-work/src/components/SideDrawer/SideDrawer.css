@@ -1,0 +1,43 @@
+.side_drawer {
+    height: 100%;
+    background: #4e5055;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 250px;
+}
+
+.side_drawer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side_drawer a {
+    color: black;
+    text-decoration: none;
+}
+
+.side_drawer_navigation_items a {
+    color: white;
+    text-decoration: none;
+}
+
+.side_drawer_navigation_items ul {
+    list-style: none;
+    margin: 0.5rem;
+    padding: 0;
+    display: flex;
+}
+
+.side_drawer_navigation_items li {
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.side_drawer_navigation_items a:hover,
+.toolbar_navigation_items a:active {
+    color: #61dafb;
+}
